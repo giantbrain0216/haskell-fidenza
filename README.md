@@ -1,5 +1,5 @@
 # Haskell Fidenza
-A partial implementation of [Tyler Hobbs's Fidenza Algorithm](https://tylerxhobbs.com/fidenza), written in Haskell.
+A partial implementation of [Tyler Hobbs's Fidenza Algorithm](https://tylerxhobbs.com/fidenza), written in Haskell. 
 
 ## Motivation
 Not being into NFTs at all, I've only very recently found out about the Fidenza algorithm, when it was mentioned as a prompt in [Genuary](https://genuary.art/) and I thought it looked wicked, so I read both the [flow field](https://tylerxhobbs.com/essays/2020/flow-fields) and [Fidenza](https://tylerxhobbs.com/fidenza) essays on Tyler's website in one breath. For the next couple of days I would find myself thinking about the ideas he mentioned and appreciating more and more how simple and yet clever they were.
@@ -124,7 +124,7 @@ Args:
 
    --customColours - a custom colour palette in the format (r,g,b,a,probability)
       with 0-255 values for r,g,b and a and any type of relative probability.
-      Overrides any colour scheme parameters. Default []
+      Overrides any colour scheme parameters. Default [] 
 
    --drawSoftly - whether to draw each shape by drawing many tiny strokes,
       rather than filling the whole shape, resulting in a soft,
